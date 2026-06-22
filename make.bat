@@ -1,0 +1,3 @@
+rgbasm "PLAYER.ASM" -o "STARWARS.OBJ"
+rgblink "STARWARS.OBJ" -o "STARWARS.GB"
+rgbfix "STARWARS.GB"
